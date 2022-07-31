@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"enter no."<<endl;
+    cin>>n;
+    cout<<(n<<1);
+    //used left shift operator <<
+    return 0;
+}
