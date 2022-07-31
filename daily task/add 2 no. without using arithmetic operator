@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int add(int s,int y)
+{
+   int x=s^y;
+   int carry=s&y;
+    if(carry==0)
+    return x;
+    else
+    return add(x,carry<<1);
+}
+int main()
+{
+    int a,b;
+    cout<<"enter no."<<endl;
+    cin>>a>>b;
+    cout<<add(a,b);
+    
+    return 0;
+}
+
+//followed recursion and left shift method and xor nd carry operator
