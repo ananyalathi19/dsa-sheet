@@ -1,0 +1,22 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int n,i=0;
+  cout<<"enter no."<<endl;
+  cin>>n;
+  if(n==0)
+  cout<<"no. of digits is 1";
+  else
+  {
+      while(n!=0)
+      {
+          n=n/10;
+          i++;
+      }
+      cout<<"no. of digits is "<<i;
+  }
+  
+  return 0;
+}
