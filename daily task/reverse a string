@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+void reverse(string& str)
+{
+    int n=str.length()-1;
+    int i=0;
+    while(i<n)
+    {
+        swap(str[i],str[n]);
+        n--;
+        i++;
+    }
+    
+}
+int main()
+{
+    
+    string str;
+    cout<<"enter the string ";
+    
+    cin>>str;
+    
+    reverse(str);
+     cout<<str;
+    return 0;
+}
