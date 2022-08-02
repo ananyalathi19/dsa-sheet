@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a,res;
+    cout<<"enter the no.s";
+    cin>>a;
+    while(a!=0)
+    {
+        res=a%10;
+        a=a/10;
+        cout<<res;
+    }
+    
+
+    return 0;
+}
