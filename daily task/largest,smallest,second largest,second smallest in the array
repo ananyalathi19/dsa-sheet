@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int> a{5,2,6,7,4};
+     
+     sort(a.begin(),a.end());
+     cout<<"largest "<<a[4]<<endl;
+     cout<<"smallest "<<a[0]<<endl;
+     cout<<"second largest "<<a[3]<<endl;
+     cout<<"second smallest "<<a[1];
+}
